@@ -9,9 +9,15 @@
 <h1>Tom Riley</h1>
 <p>"Only your action will alleviate this fear."</p>
 <br />
-<a href="#"><img src="assets/fac.png"></a>
-<a href="#"><img src="assets/goo.png"></a>
-<a href="#"><img src="assets/twi.png"></a>
+<%= link_to pages_search_path do %>
+  <%= image_tag('fac.png') %>
+<% end %>
+<%= link_to pages_search_path do %>
+  <%= image_tag('goo.png') %>
+<% end %>
+<%= link_to pages_search_path do %>
+  <%= image_tag('twi.png') %>
+<% end %>
 <%= link_to pages_search_path do %>
   <%= image_tag('favicon.png') %>
 <% end %>
