@@ -1,0 +1,60 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+body {
+background: url("/assets/eart.jpg");
+background-size: 90%;
+background-position: center;
+background-attachment: fixed;
+line-height: 1.5;
+color: white;
+}
+h1 {
+    font-family: 'Dosis', sans-serif;
+	font-weight: 100; 
+	font-size: 60px;
+}
+p { 
+	font-family: 'Dosis', sans-serif; 
+	font-weight: 200;
+	font-size: 16px;
+}
+
+.container { 
+	width: 350px;
+    margin: 100px auto; 
+    padding: 20px; 
+    background: black;
+   	background-color: rgba(67, 80, 96, 1);
+    text-align: center; 
+    border-radius: 40px;
+    opacity: 0.8;
+}
+.responsive-crop{
+width:100%;
+height:960px;
+
+background-size:cover;
+background-position:center; /* IE fix */
+}
+
+.coontainer { 
+    width: 700px;
+    margin: 80px auto; 
+    padding: 20px; 
+    background: black;
+    background-color: rgba(67, 80, 96, 1);
+    text-align: center; 
+    border-radius: 40px;
+    opacity: 0.8;
+
+}
+.search{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 90 auto; 
+    font-size: 40px;
+}
