@@ -44,6 +44,11 @@ gem 'cf-autoconfig', '~> 0.2.1'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'activesupport'
+
+gem 'eventmachine'
+
+gem 'websocket-client-simple'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
