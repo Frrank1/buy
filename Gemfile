@@ -48,6 +48,8 @@ gem 'activesupport'
 
 gem 'eventmachine'
 
+gem 'simple_form'
+
 gem 'websocket-client-simple'
 # Use Unicorn as the app server
 # gem 'unicorn'
